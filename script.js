@@ -64,3 +64,10 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
 
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+const id = Symbol('123');
+const urId = Symbol('123');
+
+console.log(id===urId);
